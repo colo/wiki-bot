@@ -9,7 +9,7 @@ module.exports = {
 		//concurrency: 1,
 		//sparqlEndpoint: 'https://wiki.example.net/bigdata/namespace/wdq/sparql'
 	},
-	requet: {
+	request: {
 		qs: {
         format: 'json'
     },
