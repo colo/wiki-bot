@@ -24,7 +24,7 @@ bot.setGlobalRequestOptions({
 
 bot.getEditToken().then((response) => {
 	console.log(response);
-	return bot.edit('Servicios Rabbitmq', 'Test Content2', 'Test Summary');
+	return bot.edit('Servicios Rabbitmq', 'Test Content3', 'Test Summary');
 })
 .then((response) => {
 	console.log(response);
