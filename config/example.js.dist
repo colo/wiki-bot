@@ -1,0 +1,14 @@
+module.exports = {
+	mediawiki: {
+		endpoint: "http://wiki.e-ducativa.x/api.php",
+		rate: 60e3 / 10,
+		userAgent: "ExampleBot <https://en.wiktionary.org/wiki/User:Example>",
+		byeline: "(example bot edit)"
+	},
+	credentials :{
+		user: "lbueno",
+		password: "misu875"
+	}
+    
+};
+

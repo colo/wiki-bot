@@ -1,0 +1,28 @@
+{
+  "name": "wiki",
+  "version": "0.0.1",
+  "description": "",
+  "url": "http://github.com/colo/wiki-bot",
+  "author": {
+    "name": "Luciano Bueno",
+    "email": "glamero@gmail.com"
+  },
+  "engines": {
+    "node": ">= 0.4.8"
+  },
+  "dependencies": {
+    "mootools": "~1.5.1",
+    "mwbot": "^1.0.7"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "mediawiki"
+  ]
+}
