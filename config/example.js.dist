@@ -1,14 +1,29 @@
 module.exports = {
-	mediawiki: {
-		endpoint: "http://wiki.e-ducativa.x/api.php",
-		rate: 60e3 / 10,
-		userAgent: "ExampleBot <https://en.wiktionary.org/wiki/User:Example>",
-		byeline: "(example bot edit)"
+	config:{
+		apiUrl: 'http://wiki.example.net/api.php',
+		verbose: true,
+		jar: true,
+		json: true,
+		//silent: false,
+		//defaultSummary: 'MWBot',
+		//concurrency: 1,
+		//sparqlEndpoint: 'https://wiki.example.net/bigdata/namespace/wdq/sparql'
+	},
+	requet: {
+		qs: {
+        format: 'json'
+    },
+    headers: {
+        'Authorization': 'Bearer xtXcsCD_zuqCMBXq1pOzZt23CnDWK0BnzzJGVdN43gJ'
+    },
+    timeout: 120000, // 120 seconds
+    jar: true,
+    time: true,
+    json: true
 	},
 	credentials :{
-		user: "lbueno",
-		password: "misu875"
+		username: "username",
+		password: "password"
 	}
-    
 };
 
