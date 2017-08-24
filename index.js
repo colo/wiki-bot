@@ -58,6 +58,7 @@ function write(page, text, callback){
 			})
 			
 			wstream.write(text);
+			wstream.end();
 		}
 		
 	});
@@ -67,7 +68,7 @@ function write(page, text, callback){
 function write_to_wiki(page, text, callback){
 	page = page.replace(/_/g, ' ');
 	
-	page = page.replace('Infra Servidores Externos ', '');
+	page = page.replace(/Infra Servidores Externos /g, '');
 	//console.log(page);
 	
 	text = text.replace(/Infra_Servidores_Externos_/g, '');
